@@ -1,0 +1,10 @@
+spring:
+    cloud:
+        config:
+            discovery:
+                enabled: true
+            server:
+                git:
+                    uri: ${HOME}/git/sampleConfig
+server:
+    port: 8888
