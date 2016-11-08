@@ -5,7 +5,7 @@ spring:
                 enabled: true
             server:
                 git:
-                    uri: http://github.com/leqcar/sampleConfig
+                    uri: https://github.com/leqcar/sampleConfig
 
 eureka:
     client:
