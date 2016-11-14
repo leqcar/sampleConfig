@@ -8,7 +8,4 @@ eureka:
       healthCheckUrlPath: /admin/health
     client:
         serviceUrl:
-            defaultZone: http://localhost:9761/eureka/
-            
-        proxy-host: http://fwproxy.aig.net
-        proxy-port: 80            
+            defaultZone: http://localhost:9761/eureka/        
