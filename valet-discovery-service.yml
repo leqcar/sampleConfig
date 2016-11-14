@@ -4,6 +4,7 @@ server:
 eureka:
     instance:
         hostname: valet-discovery-service
+        
     client:
         registerWithEureka: false
         fetchRegistry: false
