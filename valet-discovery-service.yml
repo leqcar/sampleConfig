@@ -12,3 +12,8 @@ eureka:
             defaultZone: http://valet-discovery-service:${server.port}/eureka/
     server:
         waitTimeInMsWhenSyncEmpty: 0
+        
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: INFO
+    org.springframework.web: INFO
