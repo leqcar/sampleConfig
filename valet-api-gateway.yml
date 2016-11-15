@@ -18,6 +18,6 @@ logging:
   level:
     ROOT: INFO
     org.springframework.boot.env.PropertySourcesLoader: INFO
-    org.springframework.web: INFO
+    org.springframework.web: DEBUG
     info.tcb: DEBUG
     
