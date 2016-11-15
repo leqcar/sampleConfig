@@ -15,6 +15,7 @@ ribbon:
     enabled: false
         
 logging:
-  level:
-    ROOT: INFO 
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: INFO
+    org.springframework.web: INFO
     
