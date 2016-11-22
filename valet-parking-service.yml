@@ -5,3 +5,7 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://localhost:9761/eureka/
+            
+spring:
+  application:
+    name: valet-parking-service            
