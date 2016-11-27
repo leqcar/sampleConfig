@@ -1,3 +1,10 @@
+spring.profiles.active: 'cloud'
+
+---
+spring:
+  profiles: 'cloud'
+  application:
+    name: valet-parking-service   
 server:
     port: 8090
 
@@ -5,7 +12,4 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://localhost:9761/eureka/
-            
-spring:
-  application:
-    name: valet-parking-service            
+         
