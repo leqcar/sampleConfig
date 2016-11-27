@@ -15,7 +15,7 @@ eureka:
         registerWithEureka: false
         fetchRegistry: false
         serviceUrl:
-            defaultZone: http://valet-discovery-service:${server.port}/eureka/
+            defaultZone: http://localhost:${server.port}/eureka/
     server:
         waitTimeInMsWhenSyncEmpty: 0
         
