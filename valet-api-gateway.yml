@@ -1,3 +1,9 @@
+spring.profiles.active: 'cloud'
+
+---
+spring:
+  profiles: 'cloud'
+
 server:
     port: 10010
 
