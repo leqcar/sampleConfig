@@ -1,4 +1,8 @@
+spring.profiles.active: 'cloud'
+
+---
 spring:
+    profiles: 'cloud'
     cloud:
         config:
             discovery:
