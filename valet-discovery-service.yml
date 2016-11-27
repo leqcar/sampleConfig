@@ -1,3 +1,9 @@
+spring.profiles.active: 'development'
+
+---
+spring:
+  profiles: 'development'
+
 server:
     port: 9761
 
