@@ -20,4 +20,4 @@ eureka:
       healthCheckUrlPath: /admin/health
     client:
         serviceUrl:
-            defaultZone: http://localhost:9761/eureka/
+            defaultZone: http://valet-discovery-service:9761/eureka/
