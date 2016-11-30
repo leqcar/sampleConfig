@@ -16,4 +16,4 @@ eureka:
         serviceUrl:
             defaultZone: http://valet-discovery-service:9761/eureka/
 server:
-    port: 8888
+    port: 0
