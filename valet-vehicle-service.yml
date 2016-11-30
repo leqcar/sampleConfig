@@ -6,6 +6,9 @@ spring:
   profiles: 'cloud'
   application:
     name: valet-vehicle-service
+  cloud:
+    config:
+      uri: http://valet-configuration-service:8888
 
 server:
     port: 8030

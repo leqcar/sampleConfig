@@ -3,7 +3,9 @@ spring.profiles.active: 'cloud'
 ---
 spring:
   profiles: 'cloud'
-
+  cloud:
+    config:
+      uri: http://valet-configuration-service:8888
 server:
     port: 9761
 
